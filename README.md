@@ -25,17 +25,6 @@ O trabalho se divide em duas frentes:
 
 ---
 
-## Ferramentas
-
-- **Google Colab** → ambiente de execução do notebook, sem necessidade de configuração local
-- **Python 3** → linguagem da etapa de preparação
-- **pandas** → manipulação do DataFrame, tratamento de ausentes e exportação para CSV
-- **NumPy** → operações auxiliares de array e verificação de valores nulos
-- **SciPy (`scipy.io.arff`)** → leitura do arquivo `.arff` original
-- **WEKA** → execução do algoritmo Apriori e cálculo das métricas de associação
-
----
-
 ## Pipeline do projeto
 
 1. **Carregamento** → o arquivo `supermarket.arff` é lido com `loadarff` e convertido em um DataFrame pandas.
@@ -83,6 +72,12 @@ Três regras foram escolhidas como fortes, cada uma acompanhada de um cenário d
 - **Sucos + Biscoitos → Lanches de festa** → confiança 0,69 | lift 1,38 | leverage 0,06
 
 A análise completa de cada regra, com a hipótese de comportamento do consumidor e a intervenção sugerida ao supermercado, está no relatório em `docs/`.
+
+---
+
+## Ferramentas
+
+Google Colab · Python 3 · pandas · NumPy · SciPy · WEKA
 
 ---
 
