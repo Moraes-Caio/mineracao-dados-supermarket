@@ -25,7 +25,7 @@ O trabalho se divide em duas frentes:
 
 ---
 
-## Ferramentas utilizadas
+## Ferramentas
 
 - **Google Colab** → ambiente de execução do notebook, sem necessidade de configuração local
 - **Python 3** → linguagem da etapa de preparação
@@ -86,7 +86,7 @@ A análise completa de cada regra, com a hipótese de comportamento do consumido
 
 ---
 
-## Estrutura do repositório
+## Estrutura
 
 - `notebooks/` → notebook do Google Colab com toda a etapa de preparação dos dados
 - `data/raw/` → dataset original em `.arff`
@@ -110,7 +110,7 @@ A análise completa de cada regra, com a hipótese de comportamento do consumido
 
 Trabalho desenvolvido em grupo:
 
-- Caio de Moraes
+- Caio de Moraes — [LinkedIn](https://linkedin.com/in/moraes-caio)
 - Diego Pavan
 - Fernando Mattar Modenese
 - Lucas Queiroz da Silva
